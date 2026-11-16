@@ -1,0 +1,37 @@
+{
+  "id": "campaign-codex-timeline-widget",
+  "title": "Campaign Codex Timeline Widget",
+  "description": "A timeline of dates and events with linked Campaign Codex sheets.",
+  "version": "0.0.1",
+  "manifest": "https://github.com/HeavyRain01/foundry-campaign-codex-timeline/releases/latest/download/module.json",
+  "download": "https://github.com/HeavyRain01/foundry-campaign-codex-timeline/releases/download/v0.0.1/module.zip",
+  "url": "https://github.com/HeavyRain01/foundry-campaign-codex-timeline",
+  "compatibility": {
+    "minimum": 13,
+    "verified": 14,
+    "maximum": 14
+  },
+  "authors": [
+    {
+      "name": "heavyrain",
+      "url": "https://github.com/HeavyRain01",
+      "discord": "heavyrain"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "campaign-codex",
+        "type": "module",
+        "manifest": "https://modules.wgtngm.net/cc13/module.json"
+      }
+    ]
+  },
+  "esmodules": [
+    "src/module.js"
+  ],
+  "styles": [
+    "styles/campaign-timeline.css"
+  ],
+  "readme": "README.md"
+}
