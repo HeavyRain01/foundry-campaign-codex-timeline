@@ -6,8 +6,6 @@
 
 In Foundry's **Add-on Modules** tab, select **Install Module** and paste the [release manifest](https://github.com/HeavyRain01/foundry-campaign-codex-timeline/releases/latest/download/module.json). Enable **Campaign Codex** and **Campaign Codex Timeline Widget** in your world.
 
-If you already use Campaign Timeline from WTTRPG Enhancements, enable this module and reopen the existing Campaign Codex journal. Your dates, events, and attachments are stored on that journal and carry over automatically.
-
 ## Using the widget
 
 Open a Campaign Codex journal and choose **Campaign Timeline** from its widget picker.
